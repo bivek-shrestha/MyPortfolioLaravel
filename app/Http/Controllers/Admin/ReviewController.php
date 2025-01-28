@@ -52,7 +52,7 @@ class ReviewController extends Controller
         $review->description = $validated['description'];
 
         if($request->hasfile('image')){
-            $get_file = $request->file('image')->store('images/reviewers');
+            $get_file = $request->file('image')->store('images/reviewers','public');
             $review->image = $get_file;
         }
 
@@ -94,7 +94,7 @@ class ReviewController extends Controller
             if($review->image != null ){
             Storage::delete($review->image);
             }
-            $get_new_file = $request->file('image')->store('images/reviewers');
+            $get_new_file = $request->file('image')->store('images/reviewers','public');
             $review->image = $get_new_file;
         }
 

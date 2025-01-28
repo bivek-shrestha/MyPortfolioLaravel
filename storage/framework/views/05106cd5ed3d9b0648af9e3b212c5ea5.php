@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title><?php echo e(config('app.name', 'Bivek Shrestha')); ?></title>
+    <title>Bivek Shrestha</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -11,7 +11,7 @@
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
 
     <!-- Favicon -->
-    <link href="<?php echo e(asset('import/assets/img/favicon.ico')); ?>" rel="icon">
+    <link href="<?php echo e(asset('favicon.ico')); ?>" rel="icon">
     <!-- pacifico font -->
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
@@ -32,7 +32,7 @@
     <style>
         /* Handwritten font style for logo */
         .logo-text {
-            font-family: 'Pacifico', cursive;
+            font-family: 'SF Pro';
             font-size: 48px;
             color: #0a0a0b;
             display: inline-block;

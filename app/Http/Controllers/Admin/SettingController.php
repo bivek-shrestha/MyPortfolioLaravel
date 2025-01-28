@@ -48,7 +48,7 @@ class SettingController extends Controller
             if($setting->about_photo != null){
                 Storage::delete($setting->about_photo);
             }
-            $get_new_file = $request->file('image')->store('images');
+            $get_new_file = $request->file('image')->store('images','public');
             $setting->about_photo = $get_new_file;
         }
         $setting->update($validated);

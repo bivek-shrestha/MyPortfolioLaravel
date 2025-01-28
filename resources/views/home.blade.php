@@ -49,11 +49,11 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid py-5" id="about">
+    <div class="container-fluid py-5 hover-section" id="about">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
-                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+                <h1 class="display-1 text-uppercase text-white hover-text" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary default-text">About Me</h1>
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-5 pb-4 pb-lg-0">
@@ -82,11 +82,11 @@
 
 
     <!-- Qualification Start -->
-    <div class="container-fluid py-5" id="qualification">
+    <div class="container-fluid py-5 hover-section" id="qualification">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
+                <h1 class="display-1 text-uppercase text-white hover-text" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+                <h1 class="position-absolute text-uppercase text-primary default-text">Education & Expericence</h1>
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -122,11 +122,11 @@
 
 
     <!-- Skill Start -->
-    <div class="container-fluid py-5" id="skill">
+    <div class="container-fluid py-5 hover-section" id="skill">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+                <h1 class="display-1 text-uppercase text-white hover-text" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary default-text">My Skills</h1>
             </div>
             <div class="row align-items-center">
                 @foreach($skills->split($skills->count()/3) as $row)
@@ -151,11 +151,11 @@
 
 
     <!-- Services Start -->
-    <div class="container-fluid pt-5" id="service">
+    <div class="container-fluid pt-5 hover-section" id="service">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+                <h1 class="display-1 text-uppercase text-white hover-text" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+                <h1 class="position-absolute text-uppercase text-primary default-text">My Services</h1>
             </div>
             <div class="row pb-3">
             @foreach ($services as $service)
@@ -174,11 +174,11 @@
 
 
     <!-- Portfolio Start -->
-    <div class="container-fluid pt-5 pb-3" id="portfolio">
+    <div class="container-fluid pt-5 pb-3 hover-section" id="portfolio">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+                <h1 class="display-1 text-uppercase text-white hover-text" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary default-text">My Portfolio</h1>
             </div>
             <div class="row">
                 <div class="col-12 text-center mb-2">
@@ -213,11 +213,11 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5" id="testimonial">
+    <div class="container-fluid py-5 hover-section" id="testimonial">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Clients Say</h1>
+                <h1 class="display-1 text-uppercase text-white hover-text" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
+                <h1 class="position-absolute text-uppercase text-primary default-text">Clients Say</h1>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -239,11 +239,11 @@
     <!-- Testimonial End -->
 
     <!-- Contact Start -->
-    <div class="container-fluid py-5" id="contact">
+    <div class="container-fluid py-5 hover-section" id="contact">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+                <h1 class="display-1 text-uppercase text-white hover-text" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary default-text">Contact Me</h1>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
